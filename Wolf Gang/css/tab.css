@@ -1,0 +1,155 @@
+@media all and (min-width: 700px) and (max-width: 1024px)
+{*
+	{
+		box-sizing: border-box;
+		outline: none;
+		color: #fff;
+		font-family: 'Roboto Slab', serif;
+	}
+body
+	{
+		margin: 15px;
+		text-align: center;
+		background-color: #444444;
+		background-image: url(../img/bg_body.svg);
+	}
+.container
+	{
+		max-width: 80%;
+		margin: 0 auto;
+	}
+@font-face
+	{
+		font-family: bodegaSans;
+		src : url("../fonts/BodegaSans_Black.ttf");
+		font-weight: normal;
+		font-style: normal ;
+	}
+nav a
+	{
+		text-decoration: none;
+		font-family: bodegaSans;
+		font-size: 1.4em;
+	}
+li
+	{
+		list-style: none;
+		padding-top: 2px;
+	}
+header
+	{
+		margin-top: -20px;
+		margin-bottom: 50px;
+		background: linear-gradient(120deg, #fff 50%, #333 50%);
+	}
+nav ul 
+	{
+		text-align: center;
+		direction: rtl;
+		margin-top: 40px;
+	}
+h3
+	{
+		text-align: left;
+	}
+#sec2 article
+	{
+		width: 100%;
+		background-color: #fff;
+		padding: 20px 14px;
+	}
+#sec2 article p
+	{
+		color: #6F6A66;
+	}
+#sec2 article img
+	{
+		width: 100%;
+	}
+button
+	{
+		background-color: #FF9D00;
+		padding: 20px 30px;
+		border:none;
+	}
+span, h4
+	{
+		color: #FF9D00;
+	}
+#sec3 article, video
+	{
+		width: 100%;
+	}
+video
+	{
+		margin: 5px 0px 140px 5px;
+	}
+#sec3 p
+	{
+		line-height: 2em;
+		text-align: center;
+	}
+#sec3 i
+	{
+		width: 100%;
+		margin-bottom: 5%;
+		font-size: 45px;
+	}
+footer li
+	{
+		display: inline-block;
+		width: 11%;
+	}
+footer
+	{
+		box-shadow: 0px 0px 50px #333;
+	}
+h3
+	{
+		border-top: solid 3px #3F3F3F;
+		border-left: solid 3px #3F3F3F;
+		padding: 10px;
+		font-size: 1.9em
+	}
+#logo
+	{
+		width: 10%;
+	}
+footer div
+	{
+		padding: 20px;
+	}
+h5
+	{
+		color: #D0D0D0;
+	}
+footer> div p
+	{
+		color: #A7A9A8;
+	}
+h2, h3, h4, h5, span
+	{
+		font-family: bodegaSans;
+	}
+h2
+	{
+		font-size: 2em;
+	}
+h4
+	{
+		font-size: 1.8em;
+		margin: 0;
+	}
+#p
+	{
+		font-size: 11px;
+		line-height: 1.5em;
+	}
+hr
+	{
+		border: 2px solid #FF9D00;
+	}
+h5
+	{
+		font-size:1.3em ;
+	}

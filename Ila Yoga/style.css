@@ -1,0 +1,253 @@
+*
+	{
+		box-sizing: border-box;
+		outline: none;
+		font-family: 'Playfair Display', serif;
+		font-size: 1em;
+	}
+body
+	{
+		margin: 0px;
+		padding: 0px;
+		text-align: center;
+	}
+header
+	{
+		background-image: url("img/fond.jpg");
+		background-size: cover;
+		background-position: center;
+		padding-top: 1px;
+		height: 500px;
+	}
+header a
+	{
+		display: grid;
+		text-decoration: none;
+		color: #ffffff;
+		margin-bottom: 5px;
+		font-size: 1.5em;
+		font-family: 'Kaushan Script', cursive;
+	}
+ul
+	{
+		list-style: none;
+	}
+li
+	{
+		display: inline-block;
+		width: 12%;
+	}
+header p
+	{
+		color: #FFFFFF;
+		background-image: url("img/background_section.jpg");
+		background-size: cover;
+		margin-bottom: 72px;
+		padding: 5px;
+	}
+h1
+	{
+		color: #ffffff;
+		font-size: 2em;
+		font-family: 'Kaushan Script', cursive;
+		text-shadow: 3px 3px 0px gray;
+	}
+section
+	{
+		text-align: left;
+	}
+h2, h3
+	{
+		text-align: center;
+	}
+article
+	{
+		overflow: hidden;
+		padding: 15px;
+	}
+#sec2
+	{
+		background-color:#7E65CD;
+		background-size: cover;
+		text-align: center;
+	}
+#sec2 article
+	{
+		display: inline-block;
+		width: 30%;
+		color: #ffffff;
+	}
+iframe
+	{
+		width: 100%;
+
+	}
+footer
+	{
+		background-color: #7E65CD;
+		background-size: cover;
+		padding-top: 25px;
+		color: #ffffff;
+	}
+section
+	{
+		line-height: 22px;
+		color: #929699;
+	}
+hr
+	{
+		color: #BB9AE1;
+		width: 80%;
+
+	}
+#sec2 article img
+	{
+		width: 35%;
+	}
+#logo
+	{
+		width: 4%;
+	}
+footer a
+	{
+		color: #ffffff;
+	}
+#left
+	{
+		float:left;
+		margin: 15px;
+	}
+#right
+	{
+		float:right;
+		margin: 15px;
+	}
+div
+	{
+		color: #354A5F;
+		display: inline-block;
+		width: 30%;
+	}
+.divr
+	{
+		width: 5%;
+	}
+.divc
+	{
+		width: 24%;
+	}
+#cont
+	{
+		color: #354A5F;
+		width: 90%;
+		margin: 0px auto;
+		padding: 20px ;
+	}
+table, tr, th, td
+	{
+		color: #354A5F;
+		border:solid 1px #CBCBCB;
+		border-collapse: collapse;
+	}
+table
+	{
+		margin:20px 0px;
+		width: 100%;
+		text-align: center;
+	}
+th
+	{
+		color: #ffffff;
+		font-size: 1.6em;
+		background-image: url(img/background_section.jpg);
+		background-size: cover;
+		background-position: center;
+		padding: 13px;
+		text-align: left;
+	}
+tr, td
+	{
+		padding: 10px
+	}
+caption
+	{
+		font-size: 2em;
+		color: #354A5F;
+		margin: 15px
+	}
+.iborder
+	{
+		border:0px;
+		border-bottom: solid 1px #CBCBCB;
+	}
+fieldset
+	{
+		text-align: center;
+		padding: 20px 27px;
+		border:solid 1px #CBCBCB;
+	}
+legend
+	{
+		text-align: left;
+		color: #354A5F;
+	}
+select
+	{
+		width: 100%;
+		padding: 9px 3px;
+	}
+button
+	{
+		margin: 15px 46%;
+		padding: 10px;
+		background-color: #8A62C2;
+		border:0px;
+		color: #ffffff;
+	}
+.lign_left
+	{
+		text-align: left;
+	}
+#h2, legend, label, td, tr
+	{
+		color:#354A5F;
+		font-family: 'Playfair Display', serif;
+		font-size: 1em;
+	}
+th, caption
+	{
+		font-family: 'Kaushan Script', cursive;
+	}
+tr:nth-child(even)
+	{
+		background-color:#f2f2f2;
+	}
+.col
+	{
+		color: #BC84B3;
+	}
+@media only screen and (max-width: 750px)
+	{
+		fieldset
+			{
+				display: flex;
+				flex-direction: column;
+			}
+		.divr, .divc, div
+			{
+				width: 95%;
+				margin: 0 auto;
+			}
+		header a
+			{
+				font-size: 1em;
+			}
+		caption
+			{
+				line-height: 1em;
+			}
+		button
+			{
+				margin-top: 5px !important;
+			}
+	}
